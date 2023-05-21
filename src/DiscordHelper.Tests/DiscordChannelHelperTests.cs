@@ -13,8 +13,8 @@ namespace DiscordHelper.Tests
         public DiscordChannelHelperTests()
         {
             IConfigurationRoot conf = new ConfigurationBuilder()
-                        .AddJsonFile("test.settings.json", optional: false)
-                        .AddJsonFile("test.settings.local.json", optional: true)
+                        .AddJsonFile("tests.settings.json", optional: false)
+                        .AddJsonFile("tests.settings.local.json", optional: true)
                         .Build();
 
             GuildId = ulong.Parse(conf["GuildId"]);

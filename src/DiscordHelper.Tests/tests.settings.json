@@ -1,3 +1,4 @@
+// copy this file as tests.settings.json and fill in the values:
 {
     "GuildId": 0,
     "ChannelId": 0,
